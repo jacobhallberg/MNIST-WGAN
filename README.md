@@ -26,10 +26,21 @@ Wasserstein Generative Adversarial Network
 
 ## Table of Contents
 - [Images](#images)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
 - [Explanation](#explanation)
+- [Getting Started](#getting-started)
 - [License](#license)
 - [Some Useful Links](#some-useful-links)
 
 ## Images
+
+## Explanation
+
+## Getting Started
+
+## Liscense
+
+## Some Useful Links
+
+
+
+
