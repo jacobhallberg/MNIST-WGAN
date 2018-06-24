@@ -19,7 +19,7 @@ import keras.backend as K
 import random
 
 
-class DCGAN():
+class WGAN():
 
 	def __init__(self):
 		self.image_rows = 28
@@ -251,7 +251,7 @@ class DCGAN():
 											 
 						
 						
-model = DCGAN()
+model = WGAN()
 model.train(10001)
 						
 						
