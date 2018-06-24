@@ -37,7 +37,7 @@ Wasserstein Generative Adversarial Network
 
 ## Getting Started
 
-## Liscense
+## License
 
 ## Some Useful Links
 
