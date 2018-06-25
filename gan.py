@@ -3,10 +3,7 @@ import keras
 import seaborn as sns
 sns.set()
 from progressbar import ProgressBar
-from progressbar import Bar, ETA, \
-    AdaptiveETA, FileTransferSpeed, FormatLabel, Percentage, \
-    ProgressBar, ReverseBar, RotatingMarker, \
-    SimpleProgress, Timer
+from progressbar import Bar, ETA, Percentage
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Activation, Conv2D, Reshape, UpSampling2D, BatchNormalization, LeakyReLU, ZeroPadding2D
@@ -166,7 +163,7 @@ class WGAN():
 						
 	def train(self, epochs, batch_size=100, save_interval=50): 
 		# Used to create a progress bar for the epochs forloop.
-		widgets = ['Test: ', Percentage(), ' ',Bar(marker='0',left='[',right=']'),' ', ETA()]
+		widgets = ['Test: ', Percentage(), ' ',Bar(marker='0',left='[',right=']'), ' ', ETA()]
 		pbar = ProgressBar(widgets=widgets, maxval=epochs+1)
 		
 		discriminator_losses = []
@@ -220,7 +217,13 @@ class WGAN():
 			if epoch % save_interval == 0:
 				self.save_images(epoch)
 		pbar.finish()
+		self.save_models()
 		self.plot_loss(discriminator_losses, generator_losses)
+
+	def save_models(self):
+		self.discriminator.save("d_model")
+		self.GAN.layers[0].save("g_model")
+		self.GAN.save("GAN_model")
 
 	def plot_loss(self, discriminator_losses, generator_losses):
 		plt.plot(discriminator_losses, color='b', label="Discriminator Loss")
@@ -252,7 +255,7 @@ class WGAN():
 						
 						
 model = WGAN()
-model.train(10001)
+model.train(50) 
 						
 						
 						
