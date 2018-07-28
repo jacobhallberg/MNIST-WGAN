@@ -1,11 +1,11 @@
 <h1 align="center">
 Wasserstein Generative Adversarial Network
 </h1> 
-
-
-
 <p align="center">WGAN applied to the MNIST dataset.</p>
-![](theGANLearning.gif)
+
+<p align="center">
+  <img src="theGANLearning.gif">
+</p>
 <p align="center"><a href="https://github.com/jacobhallberg/MNIST-GAN/blob/master/gan.py">Check It Out!</a> | <a href="#images">Read the Docs</a></p>
 
 ```
