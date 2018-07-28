@@ -5,7 +5,7 @@ Wasserstein Generative Adversarial Network
 
 
 <p align="center">WGAN applied to the MNIST dataset.</p>
-
+![alt text](https://github.com/jacobhallberg/MNIST-WGAN/blob/master/theGANLearning.gif "GAN Learning How to Write Numbers")
 <p align="center"><a href="https://github.com/jacobhallberg/MNIST-GAN/blob/master/gan.py">Check It Out!</a> | <a href="#images">Read the Docs</a></p>
 
 ```
