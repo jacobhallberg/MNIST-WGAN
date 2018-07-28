@@ -5,7 +5,7 @@ Wasserstein Generative Adversarial Network
 
 
 <p align="center">WGAN applied to the MNIST dataset.</p>
-![Alt Text](https://github.com/jacobhallberg/MNIST-WGAN/blob/master/theGANLearning.gif)
+![Alt Text](https://raw.githubusercontent.com/jacobhallberg/MNIST-WGAN/master/theGANLearning.gif)
 <p align="center"><a href="https://github.com/jacobhallberg/MNIST-GAN/blob/master/gan.py">Check It Out!</a> | <a href="#images">Read the Docs</a></p>
 
 ```
