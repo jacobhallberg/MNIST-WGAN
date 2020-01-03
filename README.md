@@ -24,25 +24,6 @@ Wasserstein Generative Adversarial Network
 ```
 
 
-## Table of Contents
-- [Images](#images)
-- [Explanation](#explanation)
-- [Getting Started](#getting-started)
-- [License](#license)
-- [Some Useful Links](#some-useful-links)
- 
- SOON.
-
-## Images
-
-## Explanation
-
-## Getting Started
-
-## License
-
-## Some Useful Links
-
 
 
 
